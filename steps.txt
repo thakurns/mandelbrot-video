@@ -1,0 +1,14 @@
+I want to create a frame rendering app. This will render 60 frames for second. 
+Mandelbrot set image will get zoomed by litte bit for every frame.
+I want to create a minute video, which would consits of 60 seconds * 60 frames per second frames.(3600 frames.)
+
+Brain storming questions.
+How to reduce the borders for each frame?
+How much to reduce the borders for each frame?
+Could with default image size, will it take more space for 3600 frames?
+If yes how to reduce the image size?
+How to use threads here? Do we need to calculate each frame into threads or we need to create a thread for an
+image?
+
+After concatenating 3600 frames, how can we make sure that it plays only 60 frames for second?
+Does it create a continous moving into illusion? How to make sure it happens?
