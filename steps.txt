@@ -3,6 +3,7 @@ Mandelbrot set image will get zoomed by litte bit for every frame.
 I want to create a minute video, which would consits of 60 seconds * 60 frames per second frames.(3600 frames.)
 
 Brain storming questions.
+How to convert current black and white image to color image?
 How to reduce the borders for each frame?
 How much to reduce the borders for each frame?
 Could with default image size, will it take more space for 3600 frames?
@@ -12,3 +13,12 @@ image?
 
 After concatenating 3600 frames, how can we make sure that it plays only 60 frames for second?
 Does it create a continous moving into illusion? How to make sure it happens?
+What to do if the video is flickering or causing no movement illusion?
+
+
+Steps :
+--> Connect vs code with AWS CodeWhisperer.
+--> Put Grayscale code and run it.
+--> Write code to take 100 pictures of Grayscale images.
+--> Make a broiler code and stitch these images and make some arbitary video.
+
