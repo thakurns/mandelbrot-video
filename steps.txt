@@ -22,3 +22,11 @@ Steps :
 --> Write code to take 100 pictures of Grayscale images.
 --> Make a broiler code and stitch these images and make some arbitary video.
 
+
+
+5/17/2024:
+ - Create 60 images using for loop. Put different file names for each file.
+ - Stitch those 60 images and create a video of 60 seconds. Play one image file for second.
+ - Find out what percentage percentage reduction needs to be done of upper left and lower right points. So that,
+   while zooming, it should get effect of continous video.
+ - Find out how to make continous effect of playing 60 images.
