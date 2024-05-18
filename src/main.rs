@@ -19,8 +19,11 @@ fn main() {
     let upper_left = parse_complex(&args[3]).expect("error parsing upper left corner point");
     let lower_right: Complex<f64> = parse_complex(&args[4]).expect("error parsing lower right corner point");
 
-    render_and_write_image(bounds, upper_left, lower_right, &args[1]);
     
+    for i in 0..60{
+        let filename = format!("mandelbrot_{}.png", i);
+        render_and_write_image(bounds, upper_left, lower_right, &filename);
+    }
     
 }
 
