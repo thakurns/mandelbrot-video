@@ -21,9 +21,11 @@ fn main() {
 
     
     for i in 0..60{
-        let filename = format!("mandelbrot_{}.png", i);
+        let filename = format!("mandel_images/mandelbrot_{}.png", i);
         render_and_write_image(bounds, upper_left, lower_right, &filename);
     }
+
+
     
 }
 

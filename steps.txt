@@ -25,3 +25,7 @@ What to do if the video is flickering or causing no movement illusion?
  - Find out what percentage percentage reduction needs to be done of upper left and lower right points. So that,
    while zooming, it should get effect of continous video.
  - Find out how to make continous effect of playing 60 images.
+
+
+
+ .\target\release\mandelbrot-video mandel.png 800x600 -1.20,0.35 -1,0.20
